@@ -5,8 +5,8 @@ const server= http.createServer((req, res) => {
         res.end();
     }
     if(req.url==="/api/course"){
-        res.write(JSON.stringify([8,5,2]));
-        res.end();
+        req.write(JSON.stringify([8,5,2]));
+        req.end();
     }
 });
 
