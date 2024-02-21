@@ -13,4 +13,3 @@ server.on("connection",(socket)=>{
     console.log("Listening on 3000");
 });
 server.listen(3000);
-console.log("Listening on 3000");
